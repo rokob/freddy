@@ -20,6 +20,7 @@
 		8798938618B1A20300CEBDC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798936E18B1A20300CEBDC6 /* UIKit.framework */; };
 		8798938E18B1A20300CEBDC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8798938C18B1A20300CEBDC6 /* InfoPlist.strings */; };
 		8798939018B1A20300CEBDC6 /* freddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8798938F18B1A20300CEBDC6 /* freddyTests.m */; };
+		87A4AD5D18B2B54700E13638 /* RKFeedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4AD5C18B2B54700E13638 /* RKFeedNavigationController.m */; };
 		AFE473F85A384C289AB86E2B /* libPods-freddyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5759B6A253464DA7BE34797B /* libPods-freddyTests.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		8798938B18B1A20300CEBDC6 /* freddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "freddyTests-Info.plist"; sourceTree = "<group>"; };
 		8798938D18B1A20300CEBDC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8798938F18B1A20300CEBDC6 /* freddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = freddyTests.m; sourceTree = "<group>"; };
+		87A4AD5B18B2B54700E13638 /* RKFeedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFeedNavigationController.h; sourceTree = "<group>"; };
+		87A4AD5C18B2B54700E13638 /* RKFeedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKFeedNavigationController.m; sourceTree = "<group>"; };
 		906004C0F3644EB4AE5603DC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +124,7 @@
 			children = (
 				8798937918B1A20300CEBDC6 /* RKAppDelegate.h */,
 				8798937A18B1A20300CEBDC6 /* RKAppDelegate.m */,
+				87A4AD5A18B2B51500E13638 /* Feed */,
 				8798937C18B1A20300CEBDC6 /* Images.xcassets */,
 				8798937118B1A20300CEBDC6 /* Supporting Files */,
 			);
@@ -154,6 +158,15 @@
 				8798938C18B1A20300CEBDC6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A4AD5A18B2B51500E13638 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				87A4AD5B18B2B54700E13638 /* RKFeedNavigationController.h */,
+				87A4AD5C18B2B54700E13638 /* RKFeedNavigationController.m */,
+			);
+			name = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +334,7 @@
 			files = (
 				8798937718B1A20300CEBDC6 /* main.m in Sources */,
 				8798937B18B1A20300CEBDC6 /* RKAppDelegate.m in Sources */,
+				87A4AD5D18B2B54700E13638 /* RKFeedNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
