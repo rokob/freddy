@@ -3,38 +3,22 @@
 #import "RKAppDelegate.h"
 #import <RKIntent/RKIntent.h>
 
+#import "RKFeedNavigationController.h"
+
 @implementation RKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  // Override point for customization after application launch.
+
+  RKFeedNavigationController *navController = [RKFeedNavigationController configuredFeedController];
+
+  [self.window setRootViewController:navController];
+
   self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
 
-  RKIntent *newIntent = [[RKIntent alloc] initWithData:@"dataz" type:RKIntentTypeObject source:nil];
-  NSLog(@"%@ :: %d", [newIntent data], [newIntent type]);
   return YES;
-}
-
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-}
-
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
 }
 
 @end

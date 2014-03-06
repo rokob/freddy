@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7CD9C22-AF7F-46A6-A3C3-5B77965EF06C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>freddy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2C15FE4-9608-4B42-BC3B-5FBADC930EA2</key>
+		<string>ssh://github.com/rokob/freddy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>freddy.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2C15FE4-9608-4B42-BC3B-5FBADC930EA2</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/rokob/freddy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2C15FE4-9608-4B42-BC3B-5FBADC930EA2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2C15FE4-9608-4B42-BC3B-5FBADC930EA2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>freddy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

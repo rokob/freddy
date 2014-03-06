@@ -4,6 +4,8 @@
 
 #import <RKIntent/RKIntentHandler.h>
 
-@interface RKFeedNavigationController : UINavigationController //<RKIntentHandler>
+@interface RKFeedNavigationController : UINavigationController <RKIntentHandler>
+
++ (instancetype)configuredFeedController;
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		773DF55D54934D6B9D285AC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29ABAC85B4014AD9BB6C3939 /* libPods.a */; };
+		876EDA8A18B32933005ABA24 /* RKFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876EDA8918B32933005ABA24 /* RKFeedViewController.m */; };
+		876EDA8D18B32B57005ABA24 /* RKFeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 876EDA8C18B32B57005ABA24 /* RKFeedView.m */; };
 		8798936B18B1A20300CEBDC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798936A18B1A20300CEBDC6 /* Foundation.framework */; };
 		8798936D18B1A20300CEBDC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798936C18B1A20300CEBDC6 /* CoreGraphics.framework */; };
 		8798936F18B1A20300CEBDC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798936E18B1A20300CEBDC6 /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 		29ABAC85B4014AD9BB6C3939 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFA5F63BC1641CBBFACFA3C /* Pods-freddyTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freddyTests.xcconfig"; path = "Pods/Pods-freddyTests.xcconfig"; sourceTree = "<group>"; };
 		5759B6A253464DA7BE34797B /* libPods-freddyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freddyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876EDA8818B32933005ABA24 /* RKFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFeedViewController.h; sourceTree = "<group>"; };
+		876EDA8918B32933005ABA24 /* RKFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKFeedViewController.m; sourceTree = "<group>"; };
+		876EDA8B18B32B57005ABA24 /* RKFeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFeedView.h; sourceTree = "<group>"; };
+		876EDA8C18B32B57005ABA24 /* RKFeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKFeedView.m; sourceTree = "<group>"; };
 		8798936718B1A20300CEBDC6 /* freddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8798936A18B1A20300CEBDC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8798936C18B1A20300CEBDC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +171,10 @@
 			children = (
 				87A4AD5B18B2B54700E13638 /* RKFeedNavigationController.h */,
 				87A4AD5C18B2B54700E13638 /* RKFeedNavigationController.m */,
+				876EDA8818B32933005ABA24 /* RKFeedViewController.h */,
+				876EDA8918B32933005ABA24 /* RKFeedViewController.m */,
+				876EDA8B18B32B57005ABA24 /* RKFeedView.h */,
+				876EDA8C18B32B57005ABA24 /* RKFeedView.m */,
 			);
 			name = Feed;
 			sourceTree = "<group>";
@@ -333,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8798937718B1A20300CEBDC6 /* main.m in Sources */,
+				876EDA8D18B32B57005ABA24 /* RKFeedView.m in Sources */,
+				876EDA8A18B32933005ABA24 /* RKFeedViewController.m in Sources */,
 				8798937B18B1A20300CEBDC6 /* RKAppDelegate.m in Sources */,
 				87A4AD5D18B2B54700E13638 /* RKFeedNavigationController.m in Sources */,
 			);
