@@ -5,6 +5,7 @@ workspace 'freddy'
 
 pod 'AFNetworking', '~> 2.0'
 pod 'RKIntent', '~> 0.0.1'
+pod 'RKAuthClient', '~> 0.0.2'
 
 target :freddyTests, :exclusive => true do
   pod 'Specta',  '~> 0.2.1'
