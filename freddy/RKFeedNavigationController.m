@@ -21,6 +21,7 @@
 
 - (BOOL)handleIntent:(id<RKIntent>)intent
 {
+  // This should be clear that this is just messing around and not real
   id payload = [intent payload];
   if ([payload isKindOfClass:[NSDictionary class]]) {
     NSInteger row = [[(NSDictionary *)payload objectForKey:@"row"] integerValue];
@@ -28,8 +29,8 @@
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
     UILabel *rowLabel = [[UILabel alloc] initWithFrame:CGRectMake(5, 0, 400, 200)];
     UILabel *sectionLaebl = [[UILabel alloc] initWithFrame:CGRectMake(5, 210, 400, 200)];
-    rowLabel.text = [NSString stringWithFormat:@"ROW %d", row];
-    sectionLaebl.text = [NSString stringWithFormat:@"SECTION %d", section];
+    rowLabel.text = [NSString stringWithFormat:@"ROW %lu", row];
+    sectionLaebl.text = [NSString stringWithFormat:@"SECTION %lu", section];
     [view addSubview:rowLabel];
     [view addSubview:sectionLaebl];
     UIViewController *vc = [[UIViewController alloc] init];

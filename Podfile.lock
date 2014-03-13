@@ -1,25 +1,28 @@
 PODS:
-  - AFNetworking (2.1.0):
+  - AFNetworking (2.2.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.1.0):
+  - AFNetworking/NSURLConnection (2.2.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.1.0):
+  - AFNetworking/NSURLSession (2.2.0):
     - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.1.0)
-  - AFNetworking/Security (2.1.0)
-  - AFNetworking/Serialization (2.1.0)
-  - AFNetworking/UIKit (2.1.0):
+  - AFNetworking/Reachability (2.2.0)
+  - AFNetworking/Security (2.2.0)
+  - AFNetworking/Serialization (2.2.0)
+  - AFNetworking/UIKit (2.2.0):
     - AFNetworking/NSURLConnection
-  - Expecta (0.2.3)
+    - AFNetworking/NSURLSession
+  - Expecta (0.2.4)
   - OCMock (2.2.3)
-  - RKAuthClient (0.0.2)
+  - RKAuthClient (0.0.5):
+    - RKAuthClient/Core
+  - RKAuthClient/Core (0.0.5)
   - RKIntent (0.0.3)
   - Specta (0.2.1)
 
@@ -32,10 +35,10 @@ DEPENDENCIES:
   - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
-  Expecta: dbc4a27fabb853bdd2e907e33f11ee43a9a47d0c
+  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
+  Expecta: 5c147dedfea5fbcf773995f7e65020abcc936ce5
   OCMock: 74e4ddbcef134170dcc844f91c691f13868075d7
-  RKAuthClient: a0ee94a0b376ffdfbd10df75c30b666e18acaf8e
+  RKAuthClient: 6eb9a4fee701fee08e954d02ddd7ba787e66aa14
   RKIntent: c5269d7456361d96c79062aacd1addc33ac80020
   Specta: 2d06220591110c6d9757d8be8ecf8e63aa40dc2a
 

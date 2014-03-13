@@ -36,8 +36,9 @@
     RKFeedView *feedView = [[RKFeedView alloc] init];
     [cell.contentView addSubview:feedView];
   }
-  ((RKFeedView *)(cell.contentView).subviews[0]).event.text = [NSString stringWithFormat:@"%d CELL", indexPath.row];
-  ((RKFeedView *)(cell.contentView).subviews[0]).opponent.text = [NSString stringWithFormat:@"%d detail", indexPath.section];
+  // Pretty sure I was drunk when I wrote this vvvvvv
+  ((RKFeedView *)(cell.contentView).subviews[0]).event.text = [NSString stringWithFormat:@"%lu CELL", indexPath.row];
+  ((RKFeedView *)(cell.contentView).subviews[0]).opponent.text = [NSString stringWithFormat:@"%lu detail", indexPath.section];
 
   return cell;
 }
