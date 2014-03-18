@@ -1,24 +1,27 @@
 PODS:
-  - AFNetworking (2.2.0):
+  - AFNetworking (2.2.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.2.0):
+  - AFNetworking/NSURLConnection (2.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.2.0):
+  - AFNetworking/NSURLSession (2.2.1):
     - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.2.0)
-  - AFNetworking/Security (2.2.0)
-  - AFNetworking/Serialization (2.2.0)
-  - AFNetworking/UIKit (2.2.0):
+  - AFNetworking/Reachability (2.2.1)
+  - AFNetworking/Security (2.2.1)
+  - AFNetworking/Serialization (2.2.1)
+  - AFNetworking/UIKit (2.2.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Bolts (1.0.0)
   - Expecta (0.2.4)
+  - Facebook-iOS-SDK (3.13.0)
+  - Firebase (1.0.9)
   - OCMock (2.2.3)
   - RKAuthClient (0.0.5):
     - RKAuthClient/Core
@@ -28,15 +31,21 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - Bolts (~> 1.0.0)
   - Expecta (~> 0.2.3)
+  - Facebook-iOS-SDK (~> 3.13)
+  - Firebase (~> 1.0.0)
   - OCMock (~> 2.2)
   - RKAuthClient (~> 0.0.2)
   - RKIntent (~> 0.0.1)
   - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
+  AFNetworking: 0121f4b69be3fa58d1ab317866e036e12ac9651d
+  Bolts: 45bceb8be6243d242caf74308563bba02c2af2a3
   Expecta: 5c147dedfea5fbcf773995f7e65020abcc936ce5
+  Facebook-iOS-SDK: 5788541337dc88265bc940cb5ffb05915f9b64e3
+  Firebase: f88860bb05fde375a236bab7182ecc4e02fe5c93
   OCMock: 74e4ddbcef134170dcc844f91c691f13868075d7
   RKAuthClient: 6eb9a4fee701fee08e954d02ddd7ba787e66aa14
   RKIntent: c5269d7456361d96c79062aacd1addc33ac80020

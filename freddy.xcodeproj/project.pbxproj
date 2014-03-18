@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		773DF55D54934D6B9D285AC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29ABAC85B4014AD9BB6C3939 /* libPods.a */; };
+		8744177618D80A6000678CE7 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177518D80A6000678CE7 /* libicucore.dylib */; };
+		8744177818D80A6800678CE7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177718D80A6800678CE7 /* libc++.dylib */; };
+		8744177A18D80A7100678CE7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177918D80A7100678CE7 /* CFNetwork.framework */; };
+		8744177C18D80A7700678CE7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177B18D80A7700678CE7 /* Security.framework */; };
+		8744177E18D80A8000678CE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177D18D80A8000678CE7 /* SystemConfiguration.framework */; };
+		8744178018D80B1000678CE7 /* FirebaseSimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744177F18D80B1000678CE7 /* FirebaseSimpleLogin.framework */; };
+		8744178E18D80B7300678CE7 /* FAUser+RKAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178318D80B7300678CE7 /* FAUser+RKAuthClient.m */; };
+		8744178F18D80B7300678CE7 /* RKAuthClientFirebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178518D80B7300678CE7 /* RKAuthClientFirebase.m */; };
+		8744179018D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178718D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.m */; };
+		8744179118D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178918D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.m */; };
+		8744179218D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178B18D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.m */; };
+		8744179318D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744178D18D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.m */; };
+		8744179818D80C1400678CE7 /* RKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744179718D80C1400678CE7 /* RKUser.m */; };
+		8744179B18D80F1F00678CE7 /* RKLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744179A18D80F1F00678CE7 /* RKLoginController.m */; };
+		8744179E18D80F3A00678CE7 /* RKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744179D18D80F3A00678CE7 /* RKLoginViewController.m */; };
+		874417A218D80F9600678CE7 /* RKUserContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 874417A118D80F9600678CE7 /* RKUserContext.mm */; };
 		876EDA8A18B32933005ABA24 /* RKFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876EDA8918B32933005ABA24 /* RKFeedViewController.m */; };
 		876EDA8D18B32B57005ABA24 /* RKFeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 876EDA8C18B32B57005ABA24 /* RKFeedView.m */; };
 		8798936B18B1A20300CEBDC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798936A18B1A20300CEBDC6 /* Foundation.framework */; };
@@ -40,6 +56,33 @@
 		29ABAC85B4014AD9BB6C3939 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFA5F63BC1641CBBFACFA3C /* Pods-freddyTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freddyTests.xcconfig"; path = "Pods/Pods-freddyTests.xcconfig"; sourceTree = "<group>"; };
 		5759B6A253464DA7BE34797B /* libPods-freddyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freddyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744177518D80A6000678CE7 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8744177718D80A6800678CE7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8744177918D80A7100678CE7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8744177B18D80A7700678CE7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8744177D18D80A8000678CE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8744177F18D80B1000678CE7 /* FirebaseSimpleLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseSimpleLogin.framework; path = VendorLib/FirebaseSimpleLogin.framework; sourceTree = "<group>"; };
+		8744178218D80B7300678CE7 /* FAUser+RKAuthClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FAUser+RKAuthClient.h"; sourceTree = "<group>"; };
+		8744178318D80B7300678CE7 /* FAUser+RKAuthClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FAUser+RKAuthClient.m"; sourceTree = "<group>"; };
+		8744178418D80B7300678CE7 /* RKAuthClientFirebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAuthClientFirebase.h; sourceTree = "<group>"; };
+		8744178518D80B7300678CE7 /* RKAuthClientFirebase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAuthClientFirebase.m; sourceTree = "<group>"; };
+		8744178618D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAuthClientFirebaseBasicHandler.h; sourceTree = "<group>"; };
+		8744178718D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAuthClientFirebaseBasicHandler.m; sourceTree = "<group>"; };
+		8744178818D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAuthClientFirebaseEmailHandler.h; sourceTree = "<group>"; };
+		8744178918D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAuthClientFirebaseEmailHandler.m; sourceTree = "<group>"; };
+		8744178A18D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAuthClientFirebaseFacebookHandler.h; sourceTree = "<group>"; };
+		8744178B18D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAuthClientFirebaseFacebookHandler.m; sourceTree = "<group>"; };
+		8744178C18D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAuthClientFirebaseTwitterHandler.h; sourceTree = "<group>"; };
+		8744178D18D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAuthClientFirebaseTwitterHandler.m; sourceTree = "<group>"; };
+		8744179618D80C1400678CE7 /* RKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUser.h; sourceTree = "<group>"; };
+		8744179718D80C1400678CE7 /* RKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUser.m; sourceTree = "<group>"; };
+		8744179918D80F1F00678CE7 /* RKLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginController.h; sourceTree = "<group>"; };
+		8744179A18D80F1F00678CE7 /* RKLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLoginController.m; sourceTree = "<group>"; };
+		8744179C18D80F3A00678CE7 /* RKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginViewController.h; sourceTree = "<group>"; };
+		8744179D18D80F3A00678CE7 /* RKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLoginViewController.m; sourceTree = "<group>"; };
+		874417A018D80F9600678CE7 /* RKUserContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUserContext.h; sourceTree = "<group>"; };
+		874417A118D80F9600678CE7 /* RKUserContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RKUserContext.mm; sourceTree = "<group>"; };
+		874417A418D810EA00678CE7 /* RKInvalidating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKInvalidating.h; sourceTree = "<group>"; };
 		876EDA8818B32933005ABA24 /* RKFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFeedViewController.h; sourceTree = "<group>"; };
 		876EDA8918B32933005ABA24 /* RKFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKFeedViewController.m; sourceTree = "<group>"; };
 		876EDA8B18B32B57005ABA24 /* RKFeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFeedView.h; sourceTree = "<group>"; };
@@ -70,10 +113,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8744177E18D80A8000678CE7 /* SystemConfiguration.framework in Frameworks */,
+				8744177C18D80A7700678CE7 /* Security.framework in Frameworks */,
+				8744177A18D80A7100678CE7 /* CFNetwork.framework in Frameworks */,
+				8744177818D80A6800678CE7 /* libc++.dylib in Frameworks */,
+				8744177618D80A6000678CE7 /* libicucore.dylib in Frameworks */,
 				8798936D18B1A20300CEBDC6 /* CoreGraphics.framework in Frameworks */,
 				8798936F18B1A20300CEBDC6 /* UIKit.framework in Frameworks */,
 				8798936B18B1A20300CEBDC6 /* Foundation.framework in Frameworks */,
 				773DF55D54934D6B9D285AC2 /* libPods.a in Frameworks */,
+				8744178018D80B1000678CE7 /* FirebaseSimpleLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +140,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8744178118D80B4700678CE7 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8744178218D80B7300678CE7 /* FAUser+RKAuthClient.h */,
+				8744178318D80B7300678CE7 /* FAUser+RKAuthClient.m */,
+				8744178418D80B7300678CE7 /* RKAuthClientFirebase.h */,
+				8744178518D80B7300678CE7 /* RKAuthClientFirebase.m */,
+				8744178618D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.h */,
+				8744178718D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.m */,
+				8744178818D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.h */,
+				8744178918D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.m */,
+				8744178A18D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.h */,
+				8744178B18D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.m */,
+				8744178C18D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.h */,
+				8744178D18D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.m */,
+			);
+			name = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		8744179418D80BF400678CE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8744179918D80F1F00678CE7 /* RKLoginController.h */,
+				8744179A18D80F1F00678CE7 /* RKLoginController.m */,
+				8744179C18D80F3A00678CE7 /* RKLoginViewController.h */,
+				8744179D18D80F3A00678CE7 /* RKLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8744179518D80C0400678CE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8744179618D80C1400678CE7 /* RKUser.h */,
+				8744179718D80C1400678CE7 /* RKUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8744179F18D80F8300678CE7 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				874417A018D80F9600678CE7 /* RKUserContext.h */,
+				874417A118D80F9600678CE7 /* RKUserContext.mm */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		874417A318D810D700678CE7 /* Generic Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				874417A418D810EA00678CE7 /* RKInvalidating.h */,
+			);
+			name = "Generic Protocols";
+			sourceTree = "<group>";
+		};
 		8798935E18B1A20300CEBDC6 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +220,12 @@
 		8798936918B1A20300CEBDC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8744177F18D80B1000678CE7 /* FirebaseSimpleLogin.framework */,
+				8744177D18D80A8000678CE7 /* SystemConfiguration.framework */,
+				8744177B18D80A7700678CE7 /* Security.framework */,
+				8744177918D80A7100678CE7 /* CFNetwork.framework */,
+				8744177718D80A6800678CE7 /* libc++.dylib */,
+				8744177518D80A6000678CE7 /* libicucore.dylib */,
 				8798936A18B1A20300CEBDC6 /* Foundation.framework */,
 				8798936C18B1A20300CEBDC6 /* CoreGraphics.framework */,
 				8798936E18B1A20300CEBDC6 /* UIKit.framework */,
@@ -128,6 +239,11 @@
 		8798937018B1A20300CEBDC6 /* freddy */ = {
 			isa = PBXGroup;
 			children = (
+				874417A318D810D700678CE7 /* Generic Protocols */,
+				8744179F18D80F8300678CE7 /* Context */,
+				8744179518D80C0400678CE7 /* Model */,
+				8744179418D80BF400678CE7 /* Login */,
+				8744178118D80B4700678CE7 /* FirebaseAuth */,
 				8798937918B1A20300CEBDC6 /* RKAppDelegate.h */,
 				8798937A18B1A20300CEBDC6 /* RKAppDelegate.m */,
 				87A4AD5A18B2B51500E13638 /* Feed */,
@@ -343,10 +459,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8798937718B1A20300CEBDC6 /* main.m in Sources */,
+				8744178F18D80B7300678CE7 /* RKAuthClientFirebase.m in Sources */,
 				876EDA8D18B32B57005ABA24 /* RKFeedView.m in Sources */,
+				8744179318D80B7300678CE7 /* RKAuthClientFirebaseTwitterHandler.m in Sources */,
 				876EDA8A18B32933005ABA24 /* RKFeedViewController.m in Sources */,
+				8744179018D80B7300678CE7 /* RKAuthClientFirebaseBasicHandler.m in Sources */,
 				8798937B18B1A20300CEBDC6 /* RKAppDelegate.m in Sources */,
+				8744179E18D80F3A00678CE7 /* RKLoginViewController.m in Sources */,
+				874417A218D80F9600678CE7 /* RKUserContext.mm in Sources */,
+				8744179818D80C1400678CE7 /* RKUser.m in Sources */,
+				8744179118D80B7300678CE7 /* RKAuthClientFirebaseEmailHandler.m in Sources */,
+				8744179218D80B7300678CE7 /* RKAuthClientFirebaseFacebookHandler.m in Sources */,
 				87A4AD5D18B2B54700E13638 /* RKFeedNavigationController.m in Sources */,
+				8744178E18D80B7300678CE7 /* FAUser+RKAuthClient.m in Sources */,
+				8744179B18D80F1F00678CE7 /* RKLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +592,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VendorLib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "freddy/freddy-Prefix.pch";
 				INFOPLIST_FILE = "freddy/freddy-Info.plist";
@@ -480,6 +610,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VendorLib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "freddy/freddy-Prefix.pch";
 				INFOPLIST_FILE = "freddy/freddy-Info.plist";

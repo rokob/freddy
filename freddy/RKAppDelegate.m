@@ -1,7 +1,6 @@
 //  Copyright (c) 2014 rokob. All rights reserved.
 
 #import "RKAppDelegate.h"
-#import <RKIntent/RKIntent.h>
 
 #import "RKFeedNavigationController.h"
 
